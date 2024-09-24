@@ -29,4 +29,10 @@
 	
 	// foo = 1; // Reference error in strict mode 
 	// console.log(foo);
+
+	let array = [1, 2, 3, 4, 5, 6];
+	const [a1, b1] = array;
+	console.log(a1, b1);
+	const [a2, , b2] = array;
+	console.log(a2, b2);
 })()
