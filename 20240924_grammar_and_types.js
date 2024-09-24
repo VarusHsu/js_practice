@@ -35,4 +35,36 @@
 	console.log(a1, b1);
 	const [a2, , b2] = array;
 	console.log(a2, b2);
+
+	let c;
+	if (c === undefined) {
+		console.log("c has not be assigned");
+	}else {
+		console.log("c has been assigned");
+	}
+
+
+	let d = 0;
+	if (d === undefined) {
+		console.log("d has not be assigned");
+	} else {
+		console.log("d has been assigned");
+	}
+
+	if (undefined);else {
+		console.log("undefined will as false when in boolean");
+	}
+
+	console.log(null + 1); // 1
+	console.log(!null); // true
+
+	console.log(e);
+	if (true) {
+		var e = 5;
+	}
+	console.log(e); // global
+
+	f1();
+	var f1 = ()=> console.log("f1");
+
 })()
